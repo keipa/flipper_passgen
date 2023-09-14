@@ -267,6 +267,16 @@ int32_t passgenapp(void) {
 					break;
 				}
 			}
+            if (input.type == InputTypeLong)
+            {
+                switch (input.key) {
+				case InputKeyOk:
+						notification_message(app->notify, &sequence_blink_red_100);
+					break;
+				default:
+					break;
+				}
+            }
             furi_mutex_release(app->mutex);
         }
     }
