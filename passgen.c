@@ -271,7 +271,7 @@ int32_t passgenapp(void) {
             {
                 switch (input.key) {
 				case InputKeyOk:
-						notification_message(app->notify, &sequence_blink_red_100);
+						notification_message(app->notify, &PassGen_Alert_vibro);
 					break;
 				default:
 					break;
