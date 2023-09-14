@@ -102,7 +102,7 @@ static void render_callback(Canvas* canvas, void* ctx) {
     canvas_draw_box(canvas, 0, 0, 128, 14);
     canvas_set_color(canvas, ColorWhite);
     canvas_set_font(canvas, FontPrimary);
-    canvas_draw_str(canvas, 2, 11, "Password Generator");
+    canvas_draw_str(canvas, 2, 11, "Password Generatrr");
     
     canvas_set_color(canvas, ColorBlack);
 	canvas_draw_str_aligned(canvas, 64, 35, AlignCenter, AlignCenter, app->password);
